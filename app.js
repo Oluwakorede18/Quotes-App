@@ -1,8 +1,10 @@
+import { MY_API_KEY } from "./config";
+
 const options = {
 	method: 'GET',
 	headers: {
 		'X-RapidAPI-Key': '494a1a1718msha4b89732fef1a6bp1d7da2jsnbe72600036f2',
-		'X-RapidAPI-Host': 'quotes15.p.rapidapi.com'
+		'X-RapidAPI-Host': MY_API_KEY
 	}
 };
 
